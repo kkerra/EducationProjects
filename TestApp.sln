@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApp", "TestApp\TestApp.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErrorsApp", "ErrorsApp\ErrorsApp.csproj", "{B7FDF673-0802-4756-B18A-3032CD5563CE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InspectApp", "InspectApp\InspectApp.csproj", "{724F32FC-6E7D-4796-A84A-E8F46EFE2160}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,14 @@ Global
 		{B7FDF673-0802-4756-B18A-3032CD5563CE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B7FDF673-0802-4756-B18A-3032CD5563CE}.Release|x64.ActiveCfg = Release|Any CPU
 		{B7FDF673-0802-4756-B18A-3032CD5563CE}.Release|x64.Build.0 = Release|Any CPU
+		{724F32FC-6E7D-4796-A84A-E8F46EFE2160}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{724F32FC-6E7D-4796-A84A-E8F46EFE2160}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{724F32FC-6E7D-4796-A84A-E8F46EFE2160}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{724F32FC-6E7D-4796-A84A-E8F46EFE2160}.Debug|x64.Build.0 = Debug|Any CPU
+		{724F32FC-6E7D-4796-A84A-E8F46EFE2160}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{724F32FC-6E7D-4796-A84A-E8F46EFE2160}.Release|Any CPU.Build.0 = Release|Any CPU
+		{724F32FC-6E7D-4796-A84A-E8F46EFE2160}.Release|x64.ActiveCfg = Release|Any CPU
+		{724F32FC-6E7D-4796-A84A-E8F46EFE2160}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
