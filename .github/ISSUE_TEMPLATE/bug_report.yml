@@ -36,7 +36,6 @@ body:
     attributes:
       label: Ожидаемый результат
       description: Ожидаемый результат работы программы.
-      placeholder: Пожалуйста, укажите шаги в виде списка
     validations:
       required: true
   - type: textarea
@@ -44,7 +43,6 @@ body:
     attributes:
       label: Фактический результат 
       description: Фактический результат работы программы.
-      placeholder: Пожалуйста, укажите шаги в виде списка
     validations:
       required: true
   - type: dropdown
