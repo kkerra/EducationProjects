@@ -11,7 +11,7 @@ class Product
 
     public Product(string name, decimal price, string category, int stock)
     {
-        Name = name;
+        Name = name; 
         Price = price;
         Category = category;
         Stock = stock;
