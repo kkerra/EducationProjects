@@ -9,7 +9,7 @@ namespace AuthApp
     public class UsersSingleton
     {
         public static UsersSingleton Instance { get; } = new UsersSingleton();
-        public List<User> Users { get; set; }
+        public List<User> Users { get; set; } = new List<User>();
 
         public bool Auth(string login, string password)
         {
