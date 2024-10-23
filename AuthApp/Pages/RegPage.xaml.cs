@@ -36,7 +36,7 @@ namespace AuthApp.Pages
             {
                 MessageBox.Show("Пароли не совпадают");
             }
-            else if (Regex.IsMatch(passwordBox.Password,"^(?=.*[A-ZА-Я])(?=.*[!@#$&*])(?=.*[0-9])(?=.*[a-zа-я]).{8}$"))
+            else if (!Regex.IsMatch(passwordBox.Password,"^(?=.*[A-ZА-Я])(?=.*[!@#$&*])(?=.*[0-9])(?=.*[a-zа-я]).{8}$"))
             {
                 MessageBox.Show("Пароль небезопасен, он должен содержать большие и маленькие буквы, цифры и специальные символы");
             }
