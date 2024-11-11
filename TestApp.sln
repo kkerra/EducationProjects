@@ -9,7 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErrorsApp", "ErrorsApp\Erro
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InspectApp", "InspectApp\InspectApp.csproj", "{724F32FC-6E7D-4796-A84A-E8F46EFE2160}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthApp", "AuthApp\AuthApp.csproj", "{797EA6D0-399A-4E9C-B3DB-327C97FFB95A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthApp", "AuthApp\AuthApp.csproj", "{797EA6D0-399A-4E9C-B3DB-327C97FFB95A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthAppTest", "AuthAppTest\AuthAppTest.csproj", "{40554170-5C0D-421F-8C9F-4EE13E788F76}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,14 @@ Global
 		{797EA6D0-399A-4E9C-B3DB-327C97FFB95A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{797EA6D0-399A-4E9C-B3DB-327C97FFB95A}.Release|x64.ActiveCfg = Release|Any CPU
 		{797EA6D0-399A-4E9C-B3DB-327C97FFB95A}.Release|x64.Build.0 = Release|Any CPU
+		{40554170-5C0D-421F-8C9F-4EE13E788F76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40554170-5C0D-421F-8C9F-4EE13E788F76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40554170-5C0D-421F-8C9F-4EE13E788F76}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{40554170-5C0D-421F-8C9F-4EE13E788F76}.Debug|x64.Build.0 = Debug|Any CPU
+		{40554170-5C0D-421F-8C9F-4EE13E788F76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40554170-5C0D-421F-8C9F-4EE13E788F76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40554170-5C0D-421F-8C9F-4EE13E788F76}.Release|x64.ActiveCfg = Release|Any CPU
+		{40554170-5C0D-421F-8C9F-4EE13E788F76}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
